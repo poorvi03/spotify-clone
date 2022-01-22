@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.1.0",
+  "author": "Cristhian Luna",
+  "description": "Spotify Clone Backend Helper",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js",
+    "release": "standard-version"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "spotify-web-api-node": "^5.0.2"
+  }
+}

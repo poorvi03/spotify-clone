@@ -1,0 +1,26 @@
+@font-face {
+  font-family: Product sans;
+  src: url('../src//fonts/Circular\ Font\ Family/ProductSans-Regular.ttf');
+  font-weight : normal
+}
+
+@font-face {
+  font-family: Product sans bold;
+  src: url('../src//fonts/Circular\ Font\ Family/ProductSans-Regular.ttf');
+  font-weight : bold
+}
+
+
+body {
+  margin: 0;
+  font-family:Product sans, Product sans bold, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
